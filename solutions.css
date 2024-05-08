@@ -82,3 +82,14 @@
     filter: grayscale(0.6);
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    0%{
+        transform: rotate(1turn);
+    }
+}
