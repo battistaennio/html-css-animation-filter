@@ -71,3 +71,14 @@
     border-radius: 15px;
     filter: grayscale(0.6);
 }
+
+/* Esercizio 9 */
+.ex-9-img{
+    transition: all 1s ease;
+}
+
+.ex-9-img:hover{
+    border-radius: 15px;
+    filter: grayscale(0.6);
+    transform: scale(1.5);
+}
