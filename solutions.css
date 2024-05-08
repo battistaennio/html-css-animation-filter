@@ -122,7 +122,7 @@
         left: 10%;
     }
     50% {
-        left: 67%;
+        left: calc(100% - 60px);
     }
     100% {
         left: 10%;
@@ -137,9 +137,69 @@
         right: 20%;
     }
     50% {
-        right: 67%;
+        right: calc(100% - 60px);
     }
     100% {
+        right: 20%;
+    }
+}
+
+/* Esercizio 13 (potrei aver preso ispirazione :'] )*/
+.ex-13-button:hover .ex-13-top-white {
+    animation: spin-top 2s linear;
+}
+@keyframes spin-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: spin-bottom 2s linear;
+}
+@keyframes spin-bottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        bottom: -10px;
+        right: calc(100% - 30px);
+    }
+    45% {
+        bottom: 100%;
+        right: calc(100% - 30px);
+    }
+    75% {
+        bottom: 100%;
+        right: 0;
+    }
+    90% {
+        bottom: -10px;
+        right: -15px;
+    }
+    100% {
+        bottom: -10px;
         right: 20%;
     }
 }
