@@ -61,3 +61,13 @@
 .ex-7-img:hover{
     filter: blur(10px) sepia(1);
 }
+
+/* Esercizio 8 */
+.ex-8-img{
+    transition: all 1s ease;
+}
+
+.ex-8-img:hover{
+    border-radius: 15px;
+    filter: grayscale(0.6);
+}
