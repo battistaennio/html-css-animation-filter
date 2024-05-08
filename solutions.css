@@ -93,3 +93,22 @@
         transform: rotate(1turn);
     }
 }
+
+/* esercizio 11 */
+.ex-11-icon:hover{
+    animation: mini-loading 2s linear;
+}
+
+@keyframes mini-loading {
+    0%{
+        transform: rotate(0);
+    }
+
+    90%{
+        transform: rotate(315deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
