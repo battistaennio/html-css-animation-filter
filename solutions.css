@@ -54,3 +54,10 @@
 }
 
 /* Esercizio 7 */
+.ex-7-img{
+    transition: all 1s ease;
+}
+
+.ex-7-img:hover{
+    filter: blur(10px) sepia(1);
+}
