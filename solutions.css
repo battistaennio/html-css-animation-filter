@@ -8,3 +8,10 @@
 }
 
 /* Esercizio 2 */
+.ex-2-square{
+    transition: all 2s ease;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
